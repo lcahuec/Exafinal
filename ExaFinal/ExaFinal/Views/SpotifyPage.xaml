@@ -6,7 +6,7 @@
         <ScrollView>      
             <StackLayout Padding="30">
                 <Image Source="spooo"
-                       WidthRequest="200">
+                       WidthRequest="250">
                 </Image>
                 <Button Text="Artista "
                         BackgroundColor="Green"
