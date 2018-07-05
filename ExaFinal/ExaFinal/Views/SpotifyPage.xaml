@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExaFinal.Views.SpotifyPage">
+    <ContentPage.Content>
+        <ScrollView>      
+            <StackLayout Padding="30">
+                <Image Source="spooo"
+                       WidthRequest="200">
+                </Image>
+                <Button Text="Artista "
+                        BackgroundColor="Green"
+                        TextColor="White"
+                        FontSize="Medium"
+                        FontAttributes="Bold"
+                        BorderRadius="15"
+                        Clicked="artista_Click"
+                        Margin="0,20"
+                    ></Button>
+                <Button Text="Play List "
+                        BackgroundColor="Green"
+                        TextColor="White"
+                        FontSize="Medium"
+                        FontAttributes="Bold"
+                        BorderRadius="15"
+                        Clicked="play_Click"
+                        Margin="0,20"
+                    ></Button>
+                <Button Text="Album "
+                        BackgroundColor="Green"
+                        TextColor="White"
+                        FontSize="Medium"
+                        FontAttributes="Bold"
+                        BorderRadius="15"
+                        Clicked="albun_Click"
+                        Margin="0,20"
+                    ></Button>
+                <Button Text="  Track "
+                        BackgroundColor="Green"
+                        TextColor="White"
+                        FontSize="Medium"
+                        FontAttributes="Bold"
+                        BorderRadius="15"
+                        Clicked="track_Click"
+                        Margin="0,20"
+                    ></Button>
+              
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

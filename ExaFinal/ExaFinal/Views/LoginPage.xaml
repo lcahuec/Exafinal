@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExaFinal.Views.LoginPage">
+    <ContentPage.Content>
+        <ScrollView> 
+        <StackLayout Padding="20">
+                <Image Source="spo"
+                       WidthRequest="200"
+                       Margin="0,20">
+                </Image>
+                <Label 
+                    HorizontalOptions="Center"
+                    Text="Toda la Música...!!!"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    TextColor="Green">
+                </Label>
+                <Label 
+                    HorizontalOptions="Center"
+                    Text="Todos los Artistas"
+                    FontAttributes="Bold"
+                    FontSize="Medium"
+                    TextColor="Green">
+                </Label>
+            
+                <Label 
+                    HorizontalOptions="Center"
+                    Text="Todas las PlayList"
+                    FontAttributes="Bold"
+                    FontSize="Medium"
+                    TextColor="Green">
+                </Label>
+                <Button
+                    Margin="0,30"
+                    Command="{Binding LoginWithFacbookCommand}"
+                    HorizontalOptions="Center"
+                    Text="Ingresar Con Facebook"
+                    TextColor="White"
+                    BackgroundColor="#1961a9"
+                    FontAttributes="Bold"
+                    BorderRadius="15"
+                    Clicked="Button_Clicked">
+                </Button>
+           
+        </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

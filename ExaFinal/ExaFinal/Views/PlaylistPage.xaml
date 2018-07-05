@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExaFinal.Views.PlaylistPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="30">
+                <Image Source="play"
+                       WidthRequest="150"></Image>
+                <Label
+                Text="Play List"
+                FontSize="Large"
+                FontAttributes="Bold"
+                XAlign="Center"
+                Margin="0,20">
+                </Label>
+                <Label
+                Text="Busca todas las Play List ...!!"
+                FontSize="Large"
+                FontAttributes="Bold"
+                XAlign="Center"
+                Margin="0,20">
+                </Label>
+                <SearchBar
+                Margin="0,5"
+                FontSize="Medium"
+                x:Name="busqueda1"
+         
+                Placeholder="Que deseas Escuchar" HeightRequest="20"
+                Text="{Binding SearchTerm}"
+               ></SearchBar>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

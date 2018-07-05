@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyUdeO" android:installLocation="preferExternal">
+	<uses-sdk android:minSdkVersion="18" android:targetSdkVersion="27" />
+	<application android:label="Spotify_2.0" android:icon="@drawable/spo"></application>
+</manifest>
